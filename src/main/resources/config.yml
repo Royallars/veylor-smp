@@ -56,3 +56,11 @@ rewards:
   parkour-finish: 20
 
 starting-balance: 200
+
+combat-logging:
+  enabled: true
+  timer-seconds: 15
+
+one-player-sleep:
+  enabled: true
+  clear-weather: true

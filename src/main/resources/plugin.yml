@@ -39,6 +39,12 @@ commands:
     description: Pay another player.
   minigame:
     description: Join or leave SMP minigames.
+  bounty:
+    description: Place or view a bounty.
+  claim:
+    description: Claim the current chunk.
+  unclaim:
+    description: Unclaim the current chunk.
 permissions:
   veylorsmp.admin:
     description: Admin features for VeylorSMP.
