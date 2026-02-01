@@ -1,0 +1,66 @@
+spawn:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+wild:
+  radius: 5000
+  max-tries: 12
+  avoid-blocks:
+    - LAVA
+    - WATER
+    - CACTUS
+    - MAGMA_BLOCK
+
+minigames:
+  spleef:
+    world: world
+    spawn:
+      x: 100.5
+      y: 80.0
+      z: 100.5
+      yaw: 180.0
+      pitch: 0.0
+    fall-y: 60.0
+  sumo:
+    world: world
+    spawn1:
+      x: 150.5
+      y: 80.0
+      z: 150.5
+      yaw: 0.0
+      pitch: 0.0
+    spawn2:
+      x: 155.5
+      y: 80.0
+      z: 150.5
+      yaw: 180.0
+      pitch: 0.0
+    fall-y: 75.0
+  parkour:
+    world: world
+    start:
+      x: 200.5
+      y: 80.0
+      z: 200.5
+      yaw: 0.0
+      pitch: 0.0
+    finish-block: GOLD_BLOCK
+
+rewards:
+  spleef-win: 50
+  sumo-win: 30
+  parkour-finish: 20
+
+starting-balance: 200
+
+combat-logging:
+  enabled: true
+  timer-seconds: 15
+
+one-player-sleep:
+  enabled: true
+  clear-weather: true
