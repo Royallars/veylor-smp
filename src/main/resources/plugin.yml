@@ -1,0 +1,45 @@
+name: VeylorSMP
+main: com.veylor.smp.VeylorSMPPlugin
+version: 1.0.0
+api-version: '1.21'
+author: Veylor
+commands:
+  smp:
+    description: Main SMP command.
+  spawn:
+    description: Teleport to the SMP spawn.
+  setspawn:
+    description: Set the SMP spawn.
+    permission: veylorsmp.admin
+  home:
+    description: Teleport to your home.
+  sethome:
+    description: Set your home.
+  delhome:
+    description: Delete your home.
+  warp:
+    description: Teleport to a warp.
+  setwarp:
+    description: Create a warp.
+    permission: veylorsmp.admin
+  delwarp:
+    description: Delete a warp.
+    permission: veylorsmp.admin
+  tpa:
+    description: Request teleport to a player.
+  tpaccept:
+    description: Accept a teleport request.
+  tpdeny:
+    description: Deny a teleport request.
+  wild:
+    description: Random teleport in the world.
+  balance:
+    description: Check your balance.
+  pay:
+    description: Pay another player.
+  minigame:
+    description: Join or leave SMP minigames.
+permissions:
+  veylorsmp.admin:
+    description: Admin features for VeylorSMP.
+    default: op
